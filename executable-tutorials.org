@@ -1,0 +1,67 @@
+
+* The issue with writing long complex tutorials
+
+When building a large and complex software, you'd like to be able to make a change to the code base and be sure that the software still works as intended. Nowadays, folks use automated test to check that things work after the code changes.
+
+Let's say you're working on a long and complex tutorial for building some kind of software application. At some point, you decide to change something in the middle of the tutorial. Now, how do you know that your tutorial still works? Experienced tutorial writers know that one option is to occasionally go throught the entire tutorial again to make sure that the steps still lead to the expected resultant project. Another option is to rely on readers of the tutorial to report issues after any changes are made.
+
+Another option is to make your tutorial executable.
+
+* Executable tutorial
+
+The idea with an executable tutorial is that the steps that the user is expected to take are in a machine readable format. Then, the whole tutorial can be executed at any point to make sure that the steps still lead to the expected project.
+
+* Unit tested tutorial
+
+You can include steps in your tutorial to unit test your project. Then if your project tests pass, you can consider your tutorial to also be in a passing state. By having your generated project be unit tests, your tutorial is also tested.
+
+* Course writers
+
+Authors of courses on sites like Udemy or Pluralsight could benefit from first writing their course as an executable tutorial. They can then use the tutorial as their script when recording videos, confident that the instructions lead to a working project (without having to go through the steps manually, again and again).
+
+* Example 1 - Saturn project (F#)
+
+Saturn is an MVC web framework for F#.
+
+[[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturnTutorial.md][MvcMovieSaturnTutorial]] is a tutorial for building a simple web app in Saturn.
+
+** English-language change descriptions
+
+[[file:change-description-example.png]]
+
+* Example 2 - ASP.NET Core project
+
+https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/LinkAggregatorTutorial.md
+
+** diff style change descriptions
+
+** Automated screenshots
+
+* 
+Authoring executable tutorials is somewhat more labor intensive.
+
+* 
+Workflow
+
+* 
+
+I feel that every tutorial writer should consider taking the executable tutorial approach.
+
+* Future areas to explore
+
+** Cross-platform executable tutorials
+
+So far, only tested on Windows.
+
+PowerShell works on Windows, Linux, and macOS. So conceivably, these it could be used to write tutorials which work on all three platforms.
+
+** Source file in other lanuages
+
+Other scripting languages comparable to PowerShell could conceivably be used to author source files.
+
+I could see a domain specific language being used for authoring source files. Languages like Rackett and Haskell are known
+
+** Make it easier to generate the tutorial steps
+
+You build the proeject naturally, then a system observes what you have done and generates the machine-readhable tutorial steps.
+
