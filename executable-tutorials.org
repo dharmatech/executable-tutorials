@@ -27,6 +27,10 @@ Saturn is an MVC web framework for F#.
 
 ** English-language change descriptions
 
+Programming tutorials contain instructions to the reader regarding what file to change and what to change about it.
+
+Here's a screenshot from the MvcMovieSaturnTutorial which shows an example of how file changes are described:
+
 [[file:change-description-example.png]]
 
 * Example 2 - ASP.NET Core project
