@@ -35,7 +35,7 @@ Here's a screenshot from the MvcMovieSaturnTutorial which shows an example of ho
 
 Here's the part of the source document from which that is generated:
 
-#+begin_src 
+#+begin_src PowerShell
 $file = '.\src\MvcMovieSaturn\Movies\MoviesModel.fs'
 
 $original_text = @"
