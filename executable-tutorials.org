@@ -83,6 +83,22 @@ Many tutorials often contain screenshots. Some issues with these:
 - If you update the tutorial, the screenshots have to be updated
 - Tutorial writers often let the screenshots fall out of sync with the tutorial.
 
+The LinkAggregator tutorial contains a screenshot at the beginning. This screenshot is generated when the source file is run.
+
+*** Using Canopy for screenshots
+
+[[https://lefthandedgoat.github.io/canopy/][Canopy]], an F# web testing framework, is used to write the tests for LinkAggregator. In these tests I have a step to take a screenshot:
+
+#+begin_src fsharp
+"take screenshot" &&& fun _ ->
+
+    resize (850, 450)
+    
+    screenshot "." "screenshot-links" |> ignore
+#+end_src
+
+This solves the issue of screenshots being out of date.
+
 * 
 Authoring executable tutorials is somewhat more labor intensive.
 
