@@ -59,9 +59,16 @@ As you can see there, the filename to be edited is stored in the variable =$file
 
 * Example 2 - ASP.NET Core project
 
-https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/LinkAggregatorTutorial.md
+The next example is a tutorial for building a very simple link aggregator application in ASP.NET core.
 
-** diff style change descriptions
+- [[https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/LinkAggregatorTutorial.md][Markdown]]
+- [[https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/LinkAggregatorTutorial.ps1][Source]] (PowerShell)
+- [[https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/ConvertToMarkdown.ps1][Script]] to convert from PowerShell to markdown
+
+** diff-style change descriptions
+
+In this tutorial, I took a different approach to the change descriptions.
+
 
 ** Automated screenshots
 
