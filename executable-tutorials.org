@@ -69,6 +69,7 @@ The next example is a tutorial for building a very simple link aggregator applic
 
 In this tutorial, I took a different approach to the change descriptions.
 
+[[file:change-description-example-diff-style.png]]
 
 ** Automated screenshots
 
