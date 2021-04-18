@@ -23,7 +23,7 @@ Authors of courses on sites like Udemy or Pluralsight could benefit from first w
 
 Saturn is an MVC web framework for F#.
 
-[[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturnTutorial.md][MvcMovieSaturnTutorial]] is a tutorial for building a simple web app in Saturn. That markdown file is generated from the following [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturn-unit-tested-tutorial.ps1][source file]] which is written in PowerShell. [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/convert-to-markdown.ps1][This script]] is used to convert the source file to markdown.
+[[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturnTutorial.md][MvcMovieSaturnTutorial]] is a tutorial for building a simple web app in Saturn. That markdown file is generated from [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturn-unit-tested-tutorial.ps1][this source file]] which is written in PowerShell. [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/convert-to-markdown.ps1][This script]] is used to convert the source file to markdown.
 
 ** English-language change descriptions
 
@@ -50,6 +50,12 @@ $replacement_text = @"
 
 Edit $file -Replacing $original_text -With $replacement_text
 #+end_src
+
+As you can see there, the filename to be edited is stored in the variable =$file=. The text that is to be replaced is stored in =$original_text=. Finally, the new text goes in =$replacement_text=. Then the =Edit= function is called:
+
+  #+begin_src PowerShell
+  Edit $file -Replacing $original_text -With $replacement_text
+  #+end_src
 
 * Example 2 - ASP.NET Core project
 
