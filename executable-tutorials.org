@@ -33,6 +33,24 @@ Here's a screenshot from the MvcMovieSaturnTutorial which shows an example of ho
 
 [[file:change-description-example.png]]
 
+Here's the part of the source document from which that is generated:
+
+#+begin_src 
+$file = '.\src\MvcMovieSaturn\Movies\MoviesModel.fs'
+
+$original_text = @"
+    let validators = [
+      fun u -> if isNull u.Id then Some ("Id", "Id shouldn't be empty") else None
+    ]
+"@
+
+$replacement_text = @"
+    let validators = []
+"@
+
+Edit $file -Replacing $original_text -With $replacement_text
+#+end_src
+
 * Example 2 - ASP.NET Core project
 
 https://github.com/dharmatech/LinkAggregatorTutorial/blob/main/LinkAggregatorTutorial.md
