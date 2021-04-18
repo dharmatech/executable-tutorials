@@ -77,6 +77,12 @@ Something to consider is having a way to automatically convert from =git diff= o
 
 ** Automated screenshots
 
+Many tutorials often contain screenshots. Some issues with these:
+
+- Generating these can be labor intensive
+- If you update the tutorial, the screenshots have to be updated
+- Tutorial writers often let the screenshots fall out of sync with the tutorial.
+
 * 
 Authoring executable tutorials is somewhat more labor intensive.
 
