@@ -71,7 +71,7 @@ In this tutorial, I took a different approach to the change descriptions. I simp
 
 [[file:change-description-example-diff-style.png]]
 
-I think the english-language change descriptions are visually nicer. However, the diff-style ones are obviously much easier to create. With the former, I had to manually create each change description.
+I think the english-language change descriptions are visually nicer. However, the diff-style ones are obviously much easier to create. With the former, I had to manually create each change description. With the latter, all I need to do is =git diff=, and include that in the tutorial source.
 
 Something to consider is having a way to automatically convert from =git diff= output to the friendlier style.
 
