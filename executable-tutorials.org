@@ -125,4 +125,12 @@ In some programming books, file changes that the user is expected to make are so
 
 ** Targets besides markdown
 
-It would be nice to target a document format that is richer than standard github rendered markdown. Automatically generated table of contents would be nice, for example.
+It would be nice to target a document format that is richer than standard github rendered markdown. An automatically generated table of contents would be nice, for example.
+
+* Feedback
+
+If you write an executable tutorial and would like to share your work, feel free to post a link to your work in the [[https://github.com/dharmatech/executable-tutorials/discussions][discussions]].
+
+If you know of any tutorials written in such a style, also feel free to post these in the discussions.
+
+
