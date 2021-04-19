@@ -97,7 +97,7 @@ The LinkAggregator tutorial contains a screenshot at the beginning. This screens
     screenshot "." "screenshot-links" |> ignore
 #+end_src
 
-This solves the issue of screenshots being out of date.
+This solves the issue of screenshots being out of date. Each time I run the tutorial source file to test it, fresh screenshots are generated.
 
 * Future areas to explore
 
@@ -119,4 +119,10 @@ PowerShell was quite a comfortable language for writing the tutorial source file
 
 That said, it maybe worth exploring a DSL designed for authoring source files. Perhaps Racket or Haskell could be used for such a DSL.
 
+** Alternate presentation of file change descriptions
 
+In some programming books, file changes that the user is expected to make are sometimes indicated by displaying the entire file, but bolding lines that the user should edit. Offering this style of change description to the user would be nice. It may also be nice to have it be up to the user what style to see; i.e. show diff-style by default, but allow the user to switch to the whole-file view on demand.
+
+** Targets besides markdown
+
+It would be nice to target a document format that is richer than standard github rendered markdown. Automatically generated table of contents would be nice, for example.
