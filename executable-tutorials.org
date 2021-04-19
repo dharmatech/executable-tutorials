@@ -13,7 +13,7 @@ The idea with an executable tutorial is that the steps that the user is expected
 
 * Unit tested tutorial
 
-You can include steps in your tutorial to unit test your project. Then if your project tests pass, you can consider your tutorial to also be in a passing state. By having your generated project be unit tests, your tutorial is also tested.
+You can include steps in your tutorial to unit test your project. Then if your project tests pass, you can consider your tutorial to also be in a passing state. By having your generated project be unit tested, your tutorial is also tested.
 
 * Course writers
 
@@ -21,7 +21,7 @@ Authors of courses on sites like Udemy or Pluralsight could benefit from first w
 
 * Example 1 - Saturn project (F#)
 
-Saturn is an MVC web framework for F#.
+[[https://saturnframework.org/][Saturn]] is an MVC web framework for F#.
 
 [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturnTutorial.md][MvcMovieSaturnTutorial]] is a tutorial for building a simple web app in Saturn. That markdown file is generated from [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/MvcMovieSaturn-unit-tested-tutorial.ps1][this source file]] which is written in PowerShell. [[https://github.com/dharmatech/MvcMovieSaturnTutorial/blob/main/convert-to-markdown.ps1][This script]] is used to convert the source file to markdown.
 
