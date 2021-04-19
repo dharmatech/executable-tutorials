@@ -99,31 +99,24 @@ The LinkAggregator tutorial contains a screenshot at the beginning. This screens
 
 This solves the issue of screenshots being out of date.
 
-* 
-Authoring executable tutorials is somewhat more labor intensive.
-
-* 
-Workflow
-
-* 
-
-I feel that every tutorial writer should consider taking the executable tutorial approach.
-
 * Future areas to explore
 
 ** Cross-platform executable tutorials
 
-So far, only tested on Windows.
+The two examples discussed have only been tested on Windows.
 
-PowerShell works on Windows, Linux, and macOS. So conceivably, these it could be used to write tutorials which work on all three platforms.
+PowerShell works on Windows, Linux, and macOS. So conceivably, it could be used to write tutorials which work on all three platforms.
 
 ** Source file in other lanuages
 
+The source files in two examples discussed are written in PowerShell.
+
 Other scripting languages comparable to PowerShell could conceivably be used to author source files.
 
-I could see a domain specific language being used for authoring source files. Languages like Rackett and Haskell are known
+** DSL for tutorial source files
 
-** Make it easier to generate the tutorial steps
+PowerShell was quite a comfortable language for writing the tutorial source files.
 
-You build the proeject naturally, then a system observes what you have done and generates the machine-readhable tutorial steps.
+That said, it maybe worth exploring a DSL designed for authoring source files. Perhaps Racket or Haskell could be used for such a DSL.
+
 
