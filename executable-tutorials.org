@@ -132,9 +132,3 @@ It would be nice to target a document format that is richer than standard github
 If you write an executable tutorial and would like to share your work, feel free to post a link to your work in the [[https://github.com/dharmatech/executable-tutorials/discussions][discussions]].
 
 If you know of any tutorials written in such a style, also feel free to post these in the discussions.
-
-* Discussion
-
-[[https://news.ycombinator.com/item?id=26861835][Discussion thread]] on Hacker News
-
-
